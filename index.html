@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neha Kumari — personal portfolio. Web developer · frontend, UI, and projects.">
+  <meta name="author" content="Neha Kumari">
+  <meta property="og:title" content="Neha Kumari · Personal Portfolio">
+  <meta property="og:description" content="Neha Kumari — developer portfolio. Projects, skills & contact.">
+  <meta property="og:url" content="https://nehakumari.dev/">
+  <link rel="canonical" href="https://nehakumari.dev/">
+  <title>Neha Kumari · Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="site-body">
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar navbar--fixed" aria-label="Primary navigation">
+      <div class="container navbar__container">
+        <a class="navbar__brand" href="#home" aria-label="Neha Kumari personal portfolio homepage"><span class="navbar__brand-text">Neha Kumari</span><span class="navbar__brand-sub"> · Portfolio</span></a>
+        <button class="navbar__toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="navbar__toggle-line"></span>
+          <span class="navbar__toggle-line"></span>
+          <span class="navbar__toggle-line"></span>
+        </button>
+        <ul class="navbar__menu" id="nav-menu">
+          <li class="navbar__item"><a class="navbar__link" href="#home">Home</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#about">About</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#skills">Skills</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#projects">Projects</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero section">
+      <div class="hero__bg" id="hero-bg" aria-hidden="true"></div>
+      <div class="hero__floats" aria-hidden="true">
+        <span class="hero__orb hero__orb--1"></span>
+        <span class="hero__orb hero__orb--2"></span>
+        <span class="hero__orb hero__orb--3"></span>
+      </div>
+      <div class="container hero__container">
+        <figure class="hero__media" id="hero-media" data-parallax="0.06">
+          <div class="hero__image-frame" aria-hidden="true"></div>
+          <div class="hero__image-ring" aria-hidden="true"></div>
+          <picture>
+            <img class="hero__image" src="./images/image-ezgif.webp" alt="Neha Kumari — web developer portrait" width="720" height="720" loading="eager" decoding="async">
+          </picture>
+        </figure>
+        <div class="hero__content" id="hero-content" data-parallax="-0.04">
+          <div class="hero__badges">
+            <span class="hero__pill"><span class="hero__pill-dot" aria-hidden="true"></span> Open to opportunities</span>
+            <span class="hero__pill hero__pill--muted">Frontend · UI · Web</span>
+          </div>
+          <p class="hero__intro">Hi — I'm</p>
+          <h1 class="hero__heading">
+            <span class="hero__name-display">Neha Kumari</span>
+            <span class="hero__line">I build the web, <span class="hero__accent">one sharp interface at a time.</span></span>
+          </h1>
+          <p class="hero__tagline">I'm a web developer with product instincts: clean markup, deliberate CSS, and JavaScript that ships. Responsive layouts, motion that serves the story, and interfaces that refuse to look generic.</p>
+          <ul class="hero__stats" aria-label="Quick highlights">
+            <li class="hero__stat"><span class="hero__stat-value">3+</span><span class="hero__stat-label">Projects shipped</span></li>
+            <li class="hero__stat"><span class="hero__stat-value">100%</span><span class="hero__stat-label">Hand-crafted</span></li>
+            <li class="hero__stat"><span class="hero__stat-value">A11y</span><span class="hero__stat-label">First mindset</span></li>
+          </ul>
+          <div class="hero__actions">
+            <a class="button button--primary magnetic" href="#projects"><span class="button__shine" aria-hidden="true"></span>View work</a>
+            <a class="button button--secondary magnetic" href="#contact">Start a conversation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section section--alt">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__eyebrow"><span class="section__eyebrow-index">01</span> Profile</p>
+          <h2 class="section__title">Built for clarity. Driven by craft.</h2>
+          <p class="section__subtitle">A snapshot of how I think and build.</p>
+        </header>
+        <div class="about__layout">
+          <aside class="about__highlights reveal">
+            <div class="about__mini-card">
+              <span class="about__mini-label">Focus</span>
+              <p class="about__mini-text">Responsive UI, semantic structure, performance-aware CSS.</p>
+            </div>
+            <div class="about__mini-card">
+              <span class="about__mini-label">Approach</span>
+              <p class="about__mini-text">Design systems thinking — even on solo projects.</p>
+            </div>
+            <div class="about__mini-card about__mini-card--accent">
+              <span class="about__mini-label">Goal</span>
+              <p class="about__mini-text">Ship interfaces recruiters remember after one scroll.</p>
+            </div>
+          </aside>
+          <div class="about__content reveal">
+            <p class="about__text">
+              I'm Neha Kumari — a web developer who treats every component like it might end up in a portfolio review. Structure, spacing, and how a page feels on a phone matter as much as the headline.
+            </p>
+            <p class="about__text">
+              I write semantic HTML, expressive CSS, and JavaScript that connects ideas to the screen. Every project here is deliberate practice made public: landing pages that sell the story, small apps that prove logic, and this site — evidence of momentum, not tutorial autopilot.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__eyebrow"><span class="section__eyebrow-index">02</span> Expertise</p>
+          <h2 class="section__title">Skills that scale with the stack</h2>
+          <p class="section__subtitle">Core toolkit — always leveling up.</p>
+        </header>
+        <p class="skills__lead reveal">From layout systems to interactivity, here's where I invest my reps.</p>
+        <div class="skills__chips reveal" aria-label="Skill highlights">
+          <span class="skill-chip">Semantic HTML5</span>
+          <span class="skill-chip">Modern CSS &amp; Grid</span>
+          <span class="skill-chip">JavaScript (ES6+)</span>
+          <span class="skill-chip">Responsive design</span>
+          <span class="skill-chip">Accessibility</span>
+          <span class="skill-chip">Git workflow</span>
+          <span class="skill-chip">Python basics</span>
+        </div>
+        <div class="skills__grid skills__grid--stagger reveal">
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3 class="skill-card__name">HTML</h3>
+              <span class="skill-card__value" data-count="88">0%</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="HTML proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="88" data-progress="88">
+              <div class="progress__bar"></div>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3 class="skill-card__name">CSS</h3>
+              <span class="skill-card__value" data-count="85">0%</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="CSS proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" data-progress="85">
+              <div class="progress__bar"></div>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3 class="skill-card__name">JavaScript</h3>
+              <span class="skill-card__value" data-count="72">0%</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="JavaScript proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="72" data-progress="72">
+              <div class="progress__bar"></div>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card__top">
+              <h3 class="skill-card__name">Python</h3>
+              <span class="skill-card__value" data-count="68">0%</span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Python proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="68" data-progress="68">
+              <div class="progress__bar"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section section--alt">
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__eyebrow"><span class="section__eyebrow-index">03</span> Work</p>
+          <h2 class="section__title">Selected projects</h2>
+          <p class="section__subtitle">Real builds — no template on cruise control.</p>
+        </header>
+        <div class="projects__grid projects__grid--stagger">
+          <article class="project-card project-card--featured">
+            <div class="project-card__badge">Featured</div>
+            <div class="project-card__media">
+              <img class="project-card__image" src="./images/project-1.png" width="800" height="500" alt="Screenshot of Neha Kumari's developer portfolio website" loading="eager" decoding="async">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Signature Portfolio</h3>
+              <p class="project-card__description">
+                The site you're experiencing — dark UI, glass panels, scroll storytelling, and a layout that earns its keep on every breakpoint. Proof I can own a full interface, not just a single section.
+              </p>
+              <ul class="project-card__stack" aria-label="Tech stack used">
+                <li class="project-card__stack-item">HTML5</li>
+                <li class="project-card__stack-item">CSS3</li>
+                <li class="project-card__stack-item">JavaScript</li>
+              </ul>
+              <div class="project-card__actions">
+                <a class="project-card__button project-card__button--primary" href="#home" rel="noopener noreferrer">Live</a>
+                <a class="project-card__button project-card__button--secondary" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img class="project-card__image" src="./images/project-landing.jpg" alt="Preview of Aurora Launch landing page project" loading="lazy" decoding="async">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Aurora Launch</h3>
+              <p class="project-card__description">
+                A product landing page with a bold hero, structured story, and CTAs that pull the eye through the page — built to flex typography, rhythm, and responsive grids without leaning on a framework crutch.
+              </p>
+              <ul class="project-card__stack" aria-label="Tech stack used">
+                <li class="project-card__stack-item">HTML5</li>
+                <li class="project-card__stack-item">CSS3</li>
+                <li class="project-card__stack-item">Responsive UI</li>
+              </ul>
+              <div class="project-card__actions">
+                <a class="project-card__button project-card__button--primary" href="#" target="_blank" rel="noopener noreferrer">Live</a>
+                <a class="project-card__button project-card__button--secondary" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__media">
+              <img class="project-card__image" src="./images/project-app.jpg" alt="Preview of FocusFlow simple web app" loading="lazy" decoding="async">
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">FocusFlow</h3>
+              <p class="project-card__description">
+                A lean in-browser task app — add, complete, and filter tasks with instant UI feedback. DOM practice, persistence, and state that feels snappy under real clicks.
+              </p>
+              <ul class="project-card__stack" aria-label="Tech stack used">
+                <li class="project-card__stack-item">JavaScript</li>
+                <li class="project-card__stack-item">DOM API</li>
+                <li class="project-card__stack-item">LocalStorage</li>
+              </ul>
+              <div class="project-card__actions">
+                <a class="project-card__button project-card__button--primary" href="#" target="_blank" rel="noopener noreferrer">Live</a>
+                <a class="project-card__button project-card__button--secondary" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="contact__wrap reveal">
+          <header class="section__header section__header--contact">
+            <p class="section__eyebrow"><span class="section__eyebrow-index">04</span> Contact</p>
+            <h2 class="section__title">Let's build what's next</h2>
+            <p class="section__subtitle">Hiring, collaborating, or just want to say hi — I'll reply.</p>
+          </header>
+          <form action="https://formspree.io/f/xvzvbwzn" method="POST">
+            <p class="contact-form__note">Opens your email app to send the message — ideal for local preview and static sites.</p>
+            <div class="contact-form__row">
+              <div class="form-field">
+                <label class="form-field__label" for="name">Name</label>
+                <input class="form-field__input" type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+              </div>
+              <div class="form-field">
+                <label class="form-field__label" for="email">Email</label>
+                <input class="form-field__input" type="email" id="email" name="email" placeholder="you@company.com" required autocomplete="email">
+              </div>
+            </div>
+            <div class="form-field">
+              <label class="form-field__label" for="subject">Subject</label>
+              <input class="form-field__input" type="text" id="subject" name="subject" placeholder="Role, project, or feedback">
+            </div>
+            <div class="form-field">
+              <label class="form-field__label" for="message">Message</label>
+              <textarea class="form-field__textarea" id="message" name="message" rows="6" placeholder="Tell me about the role, stack, or idea — timelines welcome." required></textarea>
+            </div>
+            <p class="form-feedback" id="form-feedback" role="status" aria-live="polite" hidden></p>
+            <button class="button button--primary contact-form__submit" type="submit"><span class="button__shine" aria-hidden="true"></span>Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__container">
+      <div class="site-footer__brand">
+        <span class="site-footer__name">Neha Kumari</span>
+        <p class="site-footer__tagline">Web developer · crafting interfaces with intent.</p>
+      </div>
+      <div class="site-footer__links">
+        <a class="site-footer__link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="site-footer__link" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="site-footer__link" href="mailto:nehajaiswal593593@gmail.com">Email</a>
+      </div>
+      <p class="site-footer__copy">&copy; 2026 Neha Kumari. All rights reserved.</p>
+      <a class="site-footer__back-to-top" href="#home">Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
